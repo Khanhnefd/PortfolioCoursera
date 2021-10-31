@@ -1,0 +1,78 @@
+header{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+#sticky-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(255, 254, 254, 0.8);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+#start{
+    margin-top: 50px;
+}
+.a:hover{
+    background: rgba(12, 214, 62, 1.0);
+}
+.my-info{
+    background-color: rgba(24, 12, 12, 0.1);
+    height: 50%;
+    font-size: 120%;
+}
+.info-header{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    color: royalblue;
+}
+#aboutMe{
+    margin-top: 2%;
+}
+.quote{
+    margin-bottom: 2%;
+    background-color: rgba(34, 221, 81, 0.3);
+}
+.fa-book{
+    color: rgba(255,0,0,0.5);
+}
+.fa-gamepad{
+    color: silver;
+}
+.fa-bread-slice{
+    color:springgreen
+}
+.fa-music{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+.book-img{
+    padding-left: 24%;
+}
+.link-song{
+    color: red;
+    margin-left: 1%;
+    border: 1px solid black;
+    font-size: large;
+    background-color: blanchedalmond;
+    text-decoration: none;
+}
+#musics{
+    margin-left: 2%;
+}
+.secret{
+    text-transform: uppercase;
+    border: 1px red dashed;
+    width: fit-content;
+    font-size: 250%;
+}
+#link-secret-song{
+    font-size: 200%;
+    color: red;
+    text-transform: uppercase;
+}
+footer{
+    line-height: 80px;
+    background-color: rgb(207, 207, 7);
+    text-transform: uppercase;
+    width: 100%;
+}
